@@ -28,4 +28,8 @@ class StudentController
 
         return redirect()->route('student.index');
     }
+
+    public function delete(){
+        return view('new');
+    }
 }
